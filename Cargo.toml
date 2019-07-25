@@ -10,5 +10,5 @@ repository = "https://github.com/drone-os/drone-async-await"
 
 [dependencies.drone-core]
 version = "0.9"
-# git = "https://github.com/drone-os/drone-core"
-path = "../../drone-os/drone-core"
+git = "https://github.com/drone-os/drone-core"
+# path = "../../drone-os/drone-core"
