@@ -1,6 +1,10 @@
 # Check with clippy.
 clippy:
-	cargo clippy --all
+	cargo clippy
+
+# Generate documentation.
+doc:
+	cargo doc
 
 # Generate README.md from src/lib.rs.
 readme:
