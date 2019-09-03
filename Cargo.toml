@@ -3,12 +3,13 @@ name = "drone-async-await"
 version = "0.9.0"
 authors = ["Valentine Valyaeff <valentine.valyaeff@gmail.com>"]
 edition = "2018"
-description = "A libcore wrapper to enable async/await for Drone apps."
+repository = "https://github.com/drone-os/drone-async-await"
 readme = "README.md"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/drone-os/drone-async-await"
+description = """
+A libcore wrapper to enable async/await for Drone apps.
+"""
 
 [dependencies.drone-core]
 version = "0.9"
-git = "https://github.com/drone-os/drone-core"
-# path = "../../drone-os/drone-core"
+path = "../../drone-os/drone-core"

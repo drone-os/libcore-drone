@@ -1,6 +1,6 @@
-# drone-async-await
+[![Crates.io](https://img.shields.io/crates/v/drone-async-await.svg)](https://crates.io/crates/drone-async-await)
 
-## [Documentation](https://docs.rs/drone-async-await)
+# drone-async-await
 
 A libcore wrapper to enable native `async`/`await` syntax for [Drone]
 applications.
@@ -26,7 +26,7 @@ These two functions are absent from original libcore, but defined in libstd.
 This is the reason for the following errors when you attempt to use `.await`
 in `no_std` context:
 
-```plain
+```
 error[E0433]: failed to resolve: could not find `poll_with_tls_context` in `future`
 error[E0433]: failed to resolve: could not find `from_generator` in `future`
 ```

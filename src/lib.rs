@@ -22,7 +22,7 @@
 //! This is the reason for the following errors when you attempt to use `.await`
 //! in `no_std` context:
 //!
-//! ```plain
+//! ```text
 //! error[E0433]: failed to resolve: could not find `poll_with_tls_context` in `future`
 //! error[E0433]: failed to resolve: could not find `from_generator` in `future`
 //! ```
@@ -30,7 +30,6 @@
 //! [Drone]: https://github.com/drone-os/drone-core
 
 #![feature(generator_trait)]
-#![deny(bare_trait_objects)]
 #![deny(elided_lifetimes_in_paths)]
 #![warn(missing_docs)]
 #![warn(clippy::pedantic)]
