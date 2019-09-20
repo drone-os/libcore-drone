@@ -7,7 +7,7 @@
 //!
 //! ```toml
 //! [dependencies]
-//! core = { package = "drone-async-await", version = "0.9" }
+//! core = { package = "libcore-drone", version = "0.10.0" }
 //! ```
 //!
 //! # Description

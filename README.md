@@ -1,6 +1,7 @@
-[![Crates.io](https://img.shields.io/crates/v/drone-async-await.svg)](https://crates.io/crates/drone-async-await)
+[![crates.io](https://img.shields.io/crates/v/libcore-drone.svg)](https://crates.io/crates/libcore-drone)
+![maintenance](https://img.shields.io/badge/maintenance-actively--developed-brightgreen.svg)
 
-# drone-async-await
+# libcore-drone
 
 A libcore wrapper to enable native `async`/`await` syntax for [Drone]
 applications.
@@ -11,7 +12,7 @@ Place the following to the Cargo.toml:
 
 ```toml
 [dependencies]
-core = { package = "drone-async-await", version = "0.9" }
+core = { package = "libcore-drone", version = "0.10.0" }
 ```
 
 ## Description
