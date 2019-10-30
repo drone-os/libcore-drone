@@ -12,7 +12,7 @@ Place the following to the Cargo.toml:
 
 ```toml
 [dependencies]
-core = { package = "libcore-drone", version = "0.10.0" }
+core = { package = "libcore-drone", version = "0.11.0" }
 ```
 
 ## Description
