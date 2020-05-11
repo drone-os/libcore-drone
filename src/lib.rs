@@ -1,3 +1,7 @@
+//! **DEPRECATED** This crate became obsolete starting from Drone 0.12 since
+//! ["Use generator resume arguments in the async/await
+//! lowering"](https://github.com/rust-lang/rust/pull/69033) was merged.
+//!
 //! A libcore wrapper to enable native `async`/`await` syntax for [Drone]
 //! applications.
 //!
@@ -7,7 +11,7 @@
 //!
 //! ```toml
 //! [dependencies]
-//! core = { package = "libcore-drone", version = "0.12.0" }
+//! core = { package = "libcore-drone", version = "0.11.1" }
 //! ```
 //!
 //! # Description

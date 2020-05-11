@@ -1,7 +1,11 @@
 [![crates.io](https://img.shields.io/crates/v/libcore-drone.svg)](https://crates.io/crates/libcore-drone)
-![maintenance](https://img.shields.io/badge/maintenance-actively--developed-brightgreen.svg)
+![maintenance](https://img.shields.io/badge/maintenance-deprecated-red.svg)
 
 # libcore-drone
+
+**DEPRECATED** This crate became obsolete starting from Drone 0.12 since
+["Use generator resume arguments in the async/await
+lowering"](https://github.com/rust-lang/rust/pull/69033) was merged.
 
 A libcore wrapper to enable native `async`/`await` syntax for [Drone]
 applications.
@@ -12,7 +16,7 @@ Place the following to the Cargo.toml:
 
 ```toml
 [dependencies]
-core = { package = "libcore-drone", version = "0.11.0" }
+core = { package = "libcore-drone", version = "0.11.1" }
 ```
 
 ## Description

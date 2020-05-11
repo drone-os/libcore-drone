@@ -1,6 +1,6 @@
 [package]
 name = "libcore-drone"
-version = "0.12.0"
+version = "0.11.1"
 authors = ["Valentine Valyaeff <valentine.valyaeff@gmail.com>"]
 edition = "2018"
 repository = "https://github.com/drone-os/libcore-drone"
@@ -11,6 +11,8 @@ description = """
 A libcore wrapper to enable async/await for Drone apps.
 """
 
+[badges]
+maintenance = { status = "deprecated" }
+
 [dependencies.drone-core]
-version = "0.12.0"
-path = "../../drone-os/drone-core"
+version = "0.11.0"
